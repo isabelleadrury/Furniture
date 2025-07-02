@@ -1,31 +1,45 @@
-. {
-  margin: 0;
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-h1 {
+button {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: rgb(0, 79, 175);
+  border-radius: 10px;
   color: white;
+  padding: 5px;
+  width: 200px;
+  height: 20px;
+  text-align: center;
+  border: none;
 }
 
 header {
-  background-color: black;
-}
-
-#Heading {
-  background-color: ;
-  border: solid 2px;
-  display: flex;
-  margin: auto;
-}
-button {
-  background-color: rgb(11, 97, 144);
-  color: white;
-  border-radius: 5px;
+  background-color: rgb(0, 79, 175);
+  border-radius: 10px;
+  padding: 10px;
+  color: aliceblue;
 }
 .Furniture {
-  width: 200px;
-  height: 30px;
+  margin: 5px 10px;
   padding: 10px;
-  border: solid 2px;
+  border: solid;
   display: inline-block;
-  border-radius: 30px;
-  background-color: aliceblue;
+  border-radius: 10px;
+}
+.cart {
+  height: 20px;
+}
+.new-price {
+  color: rgb(0, 79, 175);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+
+.old-price {
+  color: grey;
+  font-size: small;
+}
+
+#title h1 {
+  padding: 200px;
 }
